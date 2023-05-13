@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <h3 class="text-center">Sign Up</h3>
+  <form name="registration_form" id="registration_form" method="post" action="#" enctype="multipart/form-data" class="container mx-auto mt-3">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email">
+        </div>
+
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" class="form-control" placeholder="Enter your password">
+        </div>
+        <button type="button" id="register" name="register" class="btn btn-success">Register Now</button>
+        <a id="go-to-sign-in">Login</a>
+      </div><!-- end col -->
+  </form>
+  <script src="./signUp.js" type="module" defer></script>
+</body>
+</html>

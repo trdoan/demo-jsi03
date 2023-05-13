@@ -31,7 +31,7 @@ document.getElementById("login").addEventListener("click", function () {
       const user = userCredential.user;
       console.log(user);
       alert(user.email + " Login successfully!!!");
-      window.location.href = 'myWebsite.html'
+      window.location.href = 'index.html'
       localStorage.setItem('isLogin', true)
       // localStorage.setItem('userLogged', JSON.stringify({
       //   ...user,
